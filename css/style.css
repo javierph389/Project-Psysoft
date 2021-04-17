@@ -1,10 +1,6 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 1040px){
     body {
-        display: grid;
-    }
-
-    main {
-        background-image: linear-gradient(to bottom, #878787, #a4a4a4, #c1c1c1, #e0e0e0, #ffffff);
+        display: block;
     }
 }
 
@@ -55,7 +51,7 @@ h1 {
 }
 
 .portada {
-    background-image: url(/img/inicio.png);
+    background-image: url("/img/inicio.png");
     background-size: 100%;
 }
 
@@ -245,4 +241,12 @@ h2.titulo___inicio---secundario {
 
 .fullbod {
     height: 100vh;
+}
+
+textarea {
+    resize: none;
+}
+
+.textoequipo {
+    color: #686868;
 }
