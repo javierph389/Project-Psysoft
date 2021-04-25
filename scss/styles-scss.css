@@ -1,0 +1,291 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 1040px) {
+  body {
+    display: block;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F2F2F2;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+nav {
+  background-color: #010326;
+  text-align: right;
+  border: 0;
+  margin: 0;
+}
+
+img > nav {
+  height: 50px;
+}
+
+#nav {
+  background-color: #010326;
+  top: 0;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+/* HEADERS */
+h1 {
+  font-size: 40px;
+  margin: 25px 0 0 0;
+}
+
+h1 h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.portada {
+  background-image: url("https://i.postimg.cc/fWfSt20Y/inicio.png");
+  background-size: 100%;
+}
+
+/* PARRAFOS Y LISTAS */
+p, li {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  margin: 25px 0 25px 0;
+}
+
+ul li {
+  display: inline-block;
+  margin: 20px 0 20px 0;
+  padding: 5px;
+}
+
+li > img {
+  height: 50px;
+}
+
+/* ENLACES */
+a {
+  color: white;
+  font-weight: bolder;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+/* TABLAS E IMAGENES */
+.centrar, .titulo__inicio--secundario, .titulo__servicio--secundario, .titulo__clientes--secundario, .titulo__equipo--secundario, .titulo__contacto--secundario {
+  text-align: center;
+}
+
+table, th, td {
+  border: 2px solid black;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div > img {
+  width: 250px;
+}
+
+footer {
+  background-color: #010326;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 10px 0 30px 0;
+}
+
+p > footer {
+  margin: 0;
+}
+
+#perfil {
+  border-radius: 50%;
+  width: 200px;
+  margin-bottom: 25px;
+}
+
+/* MAIN*/
+/* TITULOS DE PAGINA INDEX*/
+.titulo__inicio {
+  margin-top: 0;
+  padding: 250px 250px 25px 250px;
+  font-size: 120px;
+  color: #212121;
+}
+
+.titulo__inicio--secundario {
+  color: #212121;
+  font-weight: 900;
+  padding: 0 0 50px 0;
+}
+
+/* TITULOS DE PAGINA SERVICIO*/
+.titulo__servicio {
+  font-size: 50px;
+}
+
+.titulo__servicio--secundario {
+  color: #212121;
+  font-weight: normal;
+}
+
+/* TITULOS DE PAGINA CLIENTES*/
+.titulo__clientes {
+  font-size: 50px;
+}
+
+.titulo__clientes--secundario {
+  color: #212121;
+  font-weight: normal;
+}
+
+/* TITULOS DE PAGINA EQUIPO*/
+.titulo__equipo {
+  font-size: 50px;
+}
+
+.titulo__equipo--secundario {
+  color: #212121;
+  font-weight: normal;
+}
+
+/* TITULOS DE PAGINA CONTACTO*/
+.titulo__contacto {
+  font-size: 50px;
+}
+
+.titulo__contacto--secundario {
+  color: #212121;
+  font-weight: normal;
+}
+
+/* RESTO CLASES MAIN*/
+.mision {
+  margin: 25px 0 0 0;
+  padding: 10px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav {
+  margin-right: 20px;
+}
+
+.mision__imagen {
+  width: 7%;
+}
+
+.mision__titulo {
+  font-size: 50px;
+  margin: 25px 0 10px 0;
+}
+
+.mision__parr {
+  padding: 0 300px 0 300px;
+}
+
+.tabla {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 100px;
+}
+
+.logo {
+  height: 100px;
+}
+
+#servicios {
+  display: block;
+}
+
+.services {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(100px, 500px))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(100px, 500px));
+  grid-column-gap: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.spsi .sout .srys {
+  margin: 25px;
+}
+
+.imgserv {
+  border-radius: 50%;
+  width: 200px;
+  margin-bottom: 25px;
+}
+
+#clientes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.imgclt {
+  height: 200px;
+  width: auto;
+  margin: 40px 0 60px 0;
+}
+
+.parrafo__equipo {
+  padding: 0 500px 0 500px;
+}
+
+.estilo__contacto {
+  font-family: 'Raleway', sans-serif;
+}
+
+.fullbod {
+  height: 100vh;
+}
+
+.textarea {
+  resize: none;
+}
+
+/* CLASES FOOTER*/
+.footer__arreglo {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=styles-scss.css.map */
