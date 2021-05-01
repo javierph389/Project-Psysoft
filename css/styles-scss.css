@@ -58,17 +58,13 @@ h1 h4 {
 }
 
 .portada {
-  background-image: url("img/inicio.png");
+  background-image: url("/img/inicio.png");
   background-size: 100%;
 }
 
 /* PARRAFOS Y LISTAS */
 p, li {
   font-family: 'Raleway', sans-serif;
-}
-
-p {
-  margin: 25px 0 25px 0;
 }
 
 ul li {
@@ -125,7 +121,7 @@ p > footer {
 h1.titulo__inicio {
   margin-top: 0;
   padding: 250px 250px 25px 250px;
-  font-size: 120px;
+  font-size: 100px;
   color: #686868;
 }
 
@@ -172,6 +168,7 @@ h2.titulo__equipo--secundario {
   color: #757575;
   font-weight: 900;
   padding: 0 0 50px 0;
+  margin: 0 0 25px 0;
 }
 
 h1.titulo__contacto {
@@ -219,12 +216,25 @@ nav {
 }
 
 .mision__titulo {
-  font-size: 50px;
+  font-size: 40px;
   margin: 25px 0 10px 0;
 }
 
 .mision__parr {
-  padding: 0 300px 0 300px;
+  padding: 0 500px 0 500px;
+  font-size: 20px;
+  text-justify: inter-character;
+}
+
+.mision__parr--secund {
+  padding: 0 500px 0 500px;
+  font-size: 20px;
+  text-justify: inter-word;
+  margin: 0 0 50px 0;
+}
+
+.comprom__imagen {
+  height: 150%;
 }
 
 .tabla {
@@ -235,6 +245,11 @@ nav {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 100px;
+}
+
+.clientes__main {
+  margin: 50px 0 50px 0;
+  padding: 50px 0 50px 0;
 }
 
 .equipo__header {
@@ -250,14 +265,12 @@ nav {
 }
 
 .services {
-  display: -ms-grid;
+  margin: 50px 0 50px 0;
   display: grid;
-  -ms-grid-columns: (minmax(100px, 500px))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(100px, 500px));
-  grid-column-gap: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 500px));
+  grid-column-gap: 20px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .servicio {
@@ -300,8 +313,23 @@ nav {
   margin: 40px 0 60px 0;
 }
 
+#grupo__equipo {
+  display: block;
+}
+
+.team__group {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(100px, 500px))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(100px, 500px));
+  grid-column-gap: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .parrafo__equipo {
-  padding: 0 500px 0 500px;
+  margin: 0 100px 0 100px;
 }
 
 .estilo__contacto {
