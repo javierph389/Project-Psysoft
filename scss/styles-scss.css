@@ -59,7 +59,12 @@ h1 h4 {
 
 .portada {
   background-image: url("https://i.postimg.cc/fWfSt20Y/inicio.png");
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* PARRAFOS Y LISTAS */
@@ -128,7 +133,6 @@ p > footer {
 /* TITULOS DE PAGINA INDEX*/
 .titulo__inicio {
   margin-top: 0;
-  padding: 250px 250px 25px 250px;
   font-size: 120px;
   color: #212121;
 }
@@ -206,13 +210,13 @@ p > footer {
   width: 7%;
 }
 
+.comprom__imagen {
+  width: 8%;
+}
+
 .mision__titulo {
   font-size: 50px;
   margin: 25px 0 10px 0;
-}
-
-.mision__parr {
-  padding: 0 300px 0 300px;
 }
 
 .tabla {
@@ -277,7 +281,12 @@ p > footer {
 }
 
 .fullbod {
-  height: 100vh;
+  min-height: 75vh;
+}
+
+.inicio__descripcion {
+  display: flex;
+  align-items: flex-start;
 }
 
 .textarea {

@@ -9,16 +9,17 @@
   padding: 0;
 }
 
-body {
-  background-color: #F2F2F2;
-  margin: 0;
-  padding: 0;
+html, body {
+  min-height: 100vh;
 }
 
-html, body {
-  padding: 0;
+body {
   margin: 0;
-  height: 100%;
+  background-color: #F2F2F2;
+}
+
+main {
+  flex-grow: 1;
 }
 
 nav {
@@ -30,6 +31,11 @@ nav {
 
 img > nav {
   height: 50px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
 }
 
 #nav {
@@ -59,7 +65,10 @@ h1 h4 {
 
 .portada {
   background-image: url("/img/inicio.png");
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+
 }
 
 /* PARRAFOS Y LISTAS */
@@ -102,8 +111,8 @@ footer {
   background-color: #010326;
   text-align: center;
   color: white;
-  margin: 0;
-  padding: 10px 0 30px 0;
+  /* margin: 0;
+  padding: 10px 0 30px 0; */
 }
 
 p > footer {
@@ -120,7 +129,6 @@ p > footer {
 /* TITULOS DE PAGINA*/
 h1.titulo__inicio {
   margin-top: 0;
-  padding: 250px 250px 25px 250px;
   font-size: 100px;
   color: #686868;
 }
@@ -211,6 +219,12 @@ nav {
   margin-right: 20px;
 }
 
+.inicio__descripcion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} 
+
 .mision__imagen {
   width: 7%;
 }
@@ -221,20 +235,19 @@ nav {
 }
 
 .mision__parr {
-  padding: 0 500px 0 500px;
   font-size: 20px;
   text-justify: inter-character;
 }
 
 .mision__parr--secund {
-  padding: 0 500px 0 500px;
   font-size: 20px;
   text-justify: inter-word;
   margin: 0 0 50px 0;
 }
 
 .comprom__imagen {
-  height: 150%;
+  height: 15%;
+  width: auto;
 }
 
 .tabla {
@@ -336,8 +349,8 @@ nav {
   font-family: 'Raleway', sans-serif;
 }
 
-.fullbod {
-  height: 100vh;
+.ajustepag {
+  min-height: 30vh;
 }
 
 textarea {
@@ -350,6 +363,12 @@ textarea {
 
 /* CLASES FOOTER*/
 .footer__arreglo {
-  margin-bottom: 0;
+  bottom: 0;
+  width: 100%;
 }
+
+.wrapper {
+  min-height: 100%;
+}
+
 /*# sourceMappingURL=styles-scss.css.map */
